@@ -1,13 +1,7 @@
-# Examples
+# Clinical Playbooks
 
-These are **synthetic learning examples**, not ready-made medical orders for a particular patient. Their content must be reviewed by a clinician before use.
+The earlier synthetic demonstration Playbooks have been retired. This folder is being prepared for clinician-reviewed, guideline-informed clinical workflow templates.
 
-| File | Demonstrates |
-| --- | --- |
-| [`synthetic-clinic-follow-up-instructions.asterplaybook`](synthetic-clinic-follow-up-instructions.asterplaybook) | Adding general follow-up advice without duplication. |
-| [`synthetic-routine-blood-test-request.asterplaybook`](synthetic-routine-blood-test-request.asterplaybook) | Ordered catalogue investigations, a manual entry, and advice. |
-| [`synthetic-bengali-follow-up-instructions.asterplaybook`](synthetic-bengali-follow-up-instructions.asterplaybook) | UTF-8 Bengali advice lines. |
+The first proposed templates — **suspected ACS**, **suspected STEMI** and **possible NSTE-ACS** — are available for review in [draft PR #1](https://github.com/AsterClinical/Aster-Playbooks/pull/1). They are **not Aster Clinical prescriptions, individualized medical orders, or approved clinical protocols**.
 
-**How to import:** open a file on GitHub → **Raw** → save it with the original `.asterplaybook` extension → in Aster use **Tools → Playbooks… → Import Playbook…**. Open a synthetic visit, then select **Preview on Active Visit…**.
-
-The two English examples are also shipped in Aster Desktop PLAYBOOK.1 documentation and have been included here as standalone templates. All examples remain subject to Aster's built-in validation on import.
+Before using any future Playbook, check its citations, clinical scope, local protocols and preview in an isolated synthetic Aster visit. Importing or applying a Playbook does not automatically save or issue a prescription.
