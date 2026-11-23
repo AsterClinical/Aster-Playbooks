@@ -8,7 +8,7 @@ An Aster Playbook is a portable `.asterplaybook` file containing an ordered list
 
 ## Start here
 
-1. Browse [`examples/`](examples/) and download a `.asterplaybook` file (use the file's **Raw** view, then save it with the `.asterplaybook` extension).
+1. Browse [`examples/`](examples/) for published Playbooks. The initial guideline-informed clinical templates are [under review in draft PR #1](https://github.com/AsterClinical/Aster-Playbooks/pull/1), not yet approved for clinical use.
 2. In Aster Desktop, open **Tools → Playbooks… → Import Playbook…**.
 3. Open a **synthetic test visit**, select the imported Playbook, and choose **Preview on Active Visit…**.
 4. Read every change. Resolve any conflict deliberately; **Apply to this visit** is unavailable until you do.
