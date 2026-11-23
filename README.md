@@ -18,6 +18,7 @@ Importing a Playbook **never** changes a visit. You may also import and inspect 
 
 ## Learn
 
+- [ACS / AMI guideline-informed drafts](docs/CLINICAL-ACS-GUIDELINE-NOTES.md) — citations, explicit non-prescription disclaimer, clinician review required.
 - [Playbook fundamentals](docs/FUNDAMENTALS.md) — Playbooks, Actions, and the preview/apply workflow.
 - [Create your own Playbook](docs/WRITING-PLAYBOOKS.md) — small JSON example, supported Actions and common errors.
 - [Examples](examples/README.md) — ready-to-import, synthetic files.

@@ -1,0 +1,30 @@
+{
+  "format": "aster-playbook",
+  "schema_version": 1,
+  "title": "Clinical draft: Possible NSTE-ACS - emergency evaluation",
+  "version": "0.1",
+  "author": "Aster Clinical contributors",
+  "description": "Clinician-selected possible NSTEMI or unstable angina; serial testing and risk assessment belong in emergency care.\nDRAFT; GUIDELINE-INFORMED, NOT AN ASTER CLINICAL PRESCRIPTION OR AN INDIVIDUAL MEDICAL ORDER. Requires clinician review. Independently written with references: 2025 ACC/AHA ACS Guideline https://doi.org/10.1016/j.jacc.2024.11.009 ; 2025 Australian ACS Guideline https://www.heartfoundation.org.au/for-professionals/acs-guideline . No author/publisher endorsement.",
+  "actions": [
+    {
+      "type": "investigations.add",
+      "items": [
+        {
+          "manual_name": "12-lead ECG"
+        },
+        {
+          "manual_name": "High-sensitivity cardiac troponin (I or T; local assay)"
+        }
+      ]
+    },
+    {
+      "type": "advice.add_lines",
+      "lines": [
+        "Possible non-ST-elevation acute coronary syndrome requires urgent hospital assessment.",
+        "One normal ECG or a negative early troponin test does not reliably exclude a heart attack.",
+        "The emergency team will decide on repeat testing, monitoring, and further care.",
+        "Arrange ambulance transport; do not drive yourself."
+      ]
+    }
+  ]
+}

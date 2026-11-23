@@ -1,0 +1,27 @@
+{
+  "format": "aster-playbook",
+  "schema_version": 1,
+  "title": "Clinical draft: Suspected STEMI - emergency transfer",
+  "version": "0.1",
+  "author": "Aster Clinical contributors",
+  "description": "Clinician-selected possible STEMI or acute coronary occlusion; emergency reperfusion-pathway assessment and transfer take priority.\nDRAFT; GUIDELINE-INFORMED, NOT AN ASTER CLINICAL PRESCRIPTION OR AN INDIVIDUAL MEDICAL ORDER. Requires clinician review. Independently written with references: 2025 ACC/AHA ACS Guideline https://doi.org/10.1016/j.jacc.2024.11.009 ; 2025 Australian ACS Guideline https://www.heartfoundation.org.au/for-professionals/acs-guideline . No author/publisher endorsement.",
+  "actions": [
+    {
+      "type": "investigations.add",
+      "items": [
+        {
+          "manual_name": "12-lead ECG"
+        }
+      ]
+    },
+    {
+      "type": "advice.add_lines",
+      "lines": [
+        "A possible acute heart attack needs immediate emergency cardiac assessment.",
+        "Arrange urgent ambulance transfer to an appropriate emergency cardiac facility.",
+        "Do not wait for troponin or other routine blood-test results before transfer.",
+        "Do not drive yourself to hospital."
+      ]
+    }
+  ]
+}
