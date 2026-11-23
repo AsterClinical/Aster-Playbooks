@@ -1,0 +1,11 @@
+Aster Playbooks
+Copyright 2026 Abhishek Ghosh and Aster Clinical contributors
+
+This repository contains documentation and example Playbooks licensed under
+Apache License, Version 2.0. See LICENSE.
+
+Aster Desktop is a separate application with its own license; the Apache-2.0
+license here does not grant rights to Aster Desktop source code or binaries.
+
+References to third-party software, clinical terminology, brands and standards
+do not relicense those materials or imply endorsement.

@@ -1,0 +1,18 @@
+{
+  "format": "aster-playbook",
+  "schema_version": 1,
+  "title": "Synthetic example: clinic follow-up instructions",
+  "version": "1.0",
+  "author": "Aster Clinical documentation (synthetic example)",
+  "description": "SYNTHETIC EXAMPLE for learning the Playbook format - not a clinical recommendation.\nAppends general, non-treatment clinic instructions to the visit's advice. Lines already in the advice are not added again.",
+  "actions": [
+    {
+      "type": "advice.add_lines",
+      "lines": [
+        "Follow-up visit: as advised by your doctor.",
+        "Bring this prescription and all previous prescriptions to the next visit.",
+        "Contact the clinic earlier if you have any concern."
+      ]
+    }
+  ]
+}

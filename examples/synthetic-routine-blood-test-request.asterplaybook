@@ -1,0 +1,25 @@
+{
+  "format": "aster-playbook",
+  "schema_version": 1,
+  "title": "Synthetic example: routine blood test request",
+  "version": "1.0",
+  "author": "Aster Clinical documentation (synthetic example)",
+  "description": "SYNTHETIC EXAMPLE for learning the Playbook format - not a clinical recommendation.\nAdds three common laboratory orders from Aster's built-in investigation catalogue, one manual order, and a clinic instruction about bringing reports. The clinician reviews and edits everything before saving.",
+  "actions": [
+    {
+      "type": "investigations.add",
+      "items": [
+        { "catalogue_key": "cbc" },
+        { "catalogue_key": "glucose_fasting", "preparation": "As instructed by the clinic" },
+        { "catalogue_key": "creatinine" },
+        { "manual_name": "Synthetic manual test (example only)", "note": "Example of a manual entry" }
+      ]
+    },
+    {
+      "type": "advice.add_lines",
+      "lines": [
+        "Bring all test reports to your next visit."
+      ]
+    }
+  ]
+}
